@@ -1,0 +1,188 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+}
+
+.titulo{
+    position: relative;
+    left: 215px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+
+.texto{
+    position: relative;
+    top: 110px;
+    right: 80px;
+}
+
+.botaodownload{
+    background-color: #FF6464;
+    color: white;
+    border: #FF6464;
+    width: 208px;
+    height: 47px;
+    padding: 2px;
+
+    position: relative;
+    top:190px;
+    right: 500px;
+}
+
+.fotojohn{
+    position: relative;
+    top: 65px;
+    right: 90px;
+}
+
+.formacoes{
+    display: flex;
+    background-color: #EDF7FA;
+    justify-content: center;
+    margin-bottom: 30px;  
+    height:320px;
+}
+
+.tform{
+    position: relative;
+    bottom: 15px;
+    left: 60px;
+}
+
+.primeiro{
+    background-color: #FFFFFF;
+    position: relative;
+    top: 40px;
+    right: 65px;
+    border-radius: 5px;
+    max-height: 222px;
+    padding: 17px;
+}
+
+.segundo{
+    background-color: #FFFFFF;
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+    max-height:222px;
+    padding: 17px;
+}
+
+.experiencias{
+  position: relative;
+  left: 180px;
+  margin-bottom: 50px;
+}
+
+.titu{
+    padding: 20px;
+    font-size: x-large;
+}
+
+.quadroum{
+    display: flex;
+    gap: 25px;
+
+    .htres{
+        color:#FFFFFF;
+        background-color: #142850;
+        max-width: 42px;
+        border-radius: 20%;
+        padding: 2px;
+    }
+
+    .dash{
+        position: relative;
+        left:70px;
+        bottom: 42px;
+        color: #8695A4;
+    }
+    margin-bottom: 30px;
+}
+
+.textoum{
+    position: relative;
+    bottom: 40px;
+    font-size: large;
+}
+
+.quadrodois{
+    display:flex;
+    gap: 25px;
+    padding-top: 0px;
+}
+
+.textodois{
+    position: relative;
+
+    .ano{
+          color:#FFFFFF;
+        background-color: #142850;
+        max-width: 42px;
+        border-radius: 20%;
+        padding: 2px;
+    }
+
+    .ilu{
+         position: relative;
+        left:70px;
+        bottom: 42px;
+        color: #8695A4;
+    }
+
+    p{
+          position: relative;
+    bottom: 40px;
+    font-size: large;
+    }
+}
+
+.skills{
+    display: flex;
+    background-color: #EDF7FA;
+    position: relative;
+    left: 190px;
+    gap: 100px;
+    max-width: 1000px;
+}
+
+
+
+.front{
+    background-color: #FFFFFF;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.back{
+    background-color: #FFFFFF;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    max-height: 290px;
+}
+
+.icon{
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   gap: 60px;
+    margin-top: 60px;
+}
+
+.copi{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
