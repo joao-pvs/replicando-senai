@@ -102,9 +102,10 @@
     display: flex;
     gap: 50px;
     position: relative;
-    left: 40px;
+    left: 90px;
+    top: 90px;
     margin-top: 20px;
-    margin-bottom: 100px;
+    z-index: 10px;
     .cardeducacao{
         display: flex;
         flex-direction: column;
@@ -247,9 +248,11 @@
     .posterum{
         position: relative;
         background-color: #05559f;
+        padding-top: 100px;
         h1{
             color: white;
             position:relative ;
+            top: 20px;
             right: 700px;
             padding: 90px;
             text-align:end ;
@@ -268,6 +271,7 @@
             color: white;
         }
         button{
+            position: relative;
             
         }
     }
@@ -295,12 +299,18 @@
 
 .noticias{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 200px;
+
     
     img{border-radius: 10px;
         position: relative;
-        top: 0px;
+        top: 10px;
+    }
+
+    figcaption{
+        position: relative;
+        top: 10px;
     }
 
     .nt1{
@@ -335,15 +345,27 @@
         top: 40px;
     }
 
-    button{
+    .maisnoticias{
+        button{
+        display: flex;
         position: relative;
         top: 400px;
-        right: 660px;
-        padding: 20px;       
+        right: 710px;
+        padding: 20px;      
+        padding-left: 100px; 
+        padding-right: 100px;
         border-radius: 20px;
         color: white;
         background-color: #50B0D8;
-        border: transparent;
+        border-color:#50B0D8;
+        font-size: large;
+        }
+
+        button:hover{
+            background-color: white;
+            color: #004C9B;
+            border-color: #004C9B;
+        }
     }
 }
 
@@ -351,16 +373,82 @@
     display: flex;
     margin: 20px;
     margin-bottom: 200px;
-    background-color:#50B0D8 ;
-    h1{
+    background-color:#50B0D8;
+
+    .imagem_contato{
         position: relative;
-        top: 100px;
-        left: 200px;
-        color: white;
+        left: 150px;
+        top: 70px;
     }
 
-    p{
+    .texto{
+        color:white;
+        display: flex;
+        flex-direction: column;
         position: relative;
+        left: 250px;
         top: 200px;
+
+        p{
+            line-height: 50px;
+        }
+    }
+    
+    .botao{
+        display: flex;
+        button{
+            color: white;
+            background-color: #004C9B;
+            
+            border: 2px solid;
+            padding: 20px;
+            padding-left: 120px;
+            padding-right: 120px;
+            position: relative;
+            top: 340px;
+            right: 150px;
+            border-radius: 50px;
+            font-size: large;
+        }
+
+        button:hover{
+            background-color:#50B0D8; 
+            border-color: #004C9B;
+        }
+    }
+}
+
+.login{
+    display: flex;
+    margin-bottom: 200px;
+    gap: 300px;
+    position: relative;
+    top: 35px;
+    left: 200px;
+
+    input{
+        width: 600px;
+        border-radius: 50px;
+        height: 30px;
+        border-color: rgb(196, 196, 196);
+        border: 1px solid;
+    }
+
+    .botsub{
+        border-color: rgb(136, 133, 133);
+        border: 1px solid;
+        position: relative;
+        top: 20px;
+        left: 150px;
+        border-radius: 50px;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: medium;
+    }
+
+    .botsub:hover{
+        background-color: rgb(34, 40, 56);
+        color: white;
     }
 }
