@@ -470,14 +470,16 @@
 
 footer{background-color: #004C9B;
     color: white;
-    display: flex;
-    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
 }
 
 .quadro1{
     display: flex;
     flex-direction: column;
-   
+    position:relative;
+    top: 150px;
+    left: 200px;
     gap: 10px;
     a{
         text-decoration: none;
@@ -487,7 +489,8 @@ footer{background-color: #004C9B;
 
 .quadro2{
     position: relative;
-   
+    bottom: 80px;
+    left: 500px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -499,7 +502,8 @@ footer{background-color: #004C9B;
 
 .quadro3{
     position: relative;
-   
+    bottom:180px ;
+    left: 700px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -511,7 +515,8 @@ footer{background-color: #004C9B;
 
 .quadro4{
     position: relative;
-   
+    bottom: 420px;
+    left: 980px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -522,13 +527,17 @@ footer{background-color: #004C9B;
 }
 
 .seanaibranco{
+    position: relative;
     display: flex;
-    flex-direction: row;
+    img{
+        position: relative;
+        top: 30px;
+    }
 }
 
 .socialmedia{
     display: flex;
     justify-content: flex-end;
     position: relative;
-   
+   top: 100px;
 }
