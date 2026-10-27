@@ -470,7 +470,7 @@
 
 footer{background-color: #004C9B;
     color: white;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     padding-left: 20px;
 }
 
@@ -527,8 +527,8 @@ footer{background-color: #004C9B;
 }
 
 .seanaibranco{
-    position: relative;
     display: flex;
+   flex-direction: row;
     img{
         position: relative;
         top: 30px;
