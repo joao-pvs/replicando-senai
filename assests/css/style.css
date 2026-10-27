@@ -105,7 +105,7 @@
     left: 90px;
     top: 90px;
     margin-top: 20px;
-    z-index: 10px;
+    z-index: 1;
     .cardeducacao{
         display: flex;
         flex-direction: column;
@@ -245,10 +245,11 @@
     position: relative;
     justify-content: center;
     margin-bottom: 80px;
+    
     .posterum{
         position: relative;
         background-color: #05559f;
-        padding-top: 100px;
+        padding-top: 50px;
         h1{
             color: white;
             position:relative ;
@@ -270,9 +271,23 @@
             left: 30px;
             color: white;
         }
-        button{
+
+        .btdois{
+            display: flex;
             position: relative;
-            
+            top:200px;
+            right:400px;
+           padding: 10px;
+           padding-left: 50px;
+           padding-right: 50px;
+           color:#004C9B ;
+
+        }
+
+        .btdois:hover{
+            background-color: #50B0D8;
+            color: white;
+            border-color: white; 
         }
     }
 }
@@ -451,4 +466,69 @@
         background-color: rgb(34, 40, 56);
         color: white;
     }
+}
+
+footer{background-color: #004C9B;
+    color: white;
+    display: flex;
+    padding-top: 100px;
+}
+
+.quadro1{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.quadro2{
+    position: relative;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.quadro3{
+    position: relative;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.quadro4{
+    position: relative;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.seanaibranco{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+   
 }
